@@ -1,0 +1,25 @@
+baseURL: https://kris.home.koehntopp.de/hugo/isotest/public/
+disablePathToLower: true
+languageCode: en-us
+title: Die wunderbare Welt von Isotopp
+enableEmoji: true
+
+uglyURLs: true
+permalinks:
+  post: /:year/:month/:day/:slug
+
+theme: "isotheme"
+
+markup:
+  goldmark:
+    extensions:
+      definitionslist: true
+      footnote: true
+      linkify: false
+      strikethrough: true
+      taskList: true
+      typographer: true
+    renderer:
+      unsafe:
+        true
+
