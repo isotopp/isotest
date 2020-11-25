@@ -1,0 +1,43 @@
+INFO 2020/11/25 21:25:09 Using config file: 
+Start building sites … 
+INFO 2020/11/25 21:25:09 syncing static files to /home/kris/hugo/isotest/public/
+Format Name: output.LayoutDescriptor{Type:"page", Section:"", Kind:"home", Lang:"en", Layout:"", LayoutOverride:false, RenderingHook:false, Baseof:false} "HTML"
+Format Name: output.LayoutDescriptor{Type:"page", Section:"", Kind:"home", Lang:"en", Layout:"", LayoutOverride:false, RenderingHook:false, Baseof:true} "HTML"
+DEBUG 2020/11/25 21:25:09 Render page Die wunderbare Welt von Isotopp (template index.html) to "/index.html"
+DEBUG 2020/11/25 21:25:09 Execute template: "index.html"
+DEBUG 2020/11/25 21:25:09 Execute template: "partials/head.html"
+Format Name: output.LayoutDescriptor{Type:"categories", Section:"category", Kind:"taxonomy", Lang:"en", Layout:"", LayoutOverride:false, RenderingHook:false, Baseof:false} "HTML"
+DEBUG 2020/11/25 21:25:09 Execute template: "partials/header.html"
+DEBUG 2020/11/25 21:25:09 Execute template: "partials/footer.html"
+DEBUG 2020/11/25 21:25:09 Render page Categories (template _default/list.html) to "/categories.html"
+DEBUG 2020/11/25 21:25:09 Execute template: "_default/list.html"
+Format Name: output.LayoutDescriptor{Type:"tags", Section:"tag", Kind:"taxonomy", Lang:"en", Layout:"", LayoutOverride:false, RenderingHook:false, Baseof:false} "HTML"
+DEBUG 2020/11/25 21:25:09 Render page Tags (template _default/list.html) to "/tags.html"
+DEBUG 2020/11/25 21:25:09 Execute template: "_default/list.html"
+DEBUG 2020/11/25 21:25:09 Render XML (template _internal/_default/sitemap.xml) for sitemap to "/sitemap.xml"
+DEBUG 2020/11/25 21:25:09 Execute template: "_internal/_default/sitemap.xml"
+Format Name: output.LayoutDescriptor{Type:"", Section:"", Kind:"404", Lang:"", Layout:"", LayoutOverride:false, RenderingHook:false, Baseof:false} "HTML"
+DEBUG 2020/11/25 21:25:09 Render 404 page (template 404.html) to "/404.html"
+DEBUG 2020/11/25 21:25:09 Execute template: "404.html"
+Format Name: output.LayoutDescriptor{Type:"page", Section:"", Kind:"home", Lang:"en", Layout:"", LayoutOverride:false, RenderingHook:false, Baseof:false} "RSS"
+DEBUG 2020/11/25 21:25:09 Render page Die wunderbare Welt von Isotopp (template _internal/_default/rss.xml) to "/index.xml"
+DEBUG 2020/11/25 21:25:09 Execute template: "_internal/_default/rss.xml"
+Format Name: output.LayoutDescriptor{Type:"categories", Section:"category", Kind:"taxonomy", Lang:"en", Layout:"", LayoutOverride:false, RenderingHook:false, Baseof:false} "RSS"
+DEBUG 2020/11/25 21:25:09 Render page Categories (template _internal/_default/rss.xml) to "/categories/index.xml"
+DEBUG 2020/11/25 21:25:09 Execute template: "_internal/_default/rss.xml"
+Format Name: output.LayoutDescriptor{Type:"tags", Section:"tag", Kind:"taxonomy", Lang:"en", Layout:"", LayoutOverride:false, RenderingHook:false, Baseof:false} "RSS"
+DEBUG 2020/11/25 21:25:09 Render page Tags (template _internal/_default/rss.xml) to "/tags/index.xml"
+DEBUG 2020/11/25 21:25:09 Execute template: "_internal/_default/rss.xml"
+
+                   | EN  
+-------------------+-----
+  Pages            |  6  
+  Paginator pages  |  0  
+  Non-page files   |  0  
+  Static files     |  0  
+  Processed images |  0  
+  Aliases          |  0  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Total in 16 ms
